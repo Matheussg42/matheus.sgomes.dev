@@ -23,6 +23,7 @@
 	<meta name="og:site_name" content="Matheus S. Gomes - Web Developer">
 	<meta name="og:locale" content="pt_BR">
 	<meta name="og:type" content="website">
+	<meta name="theme-color" content="#3a4fff" />
 	
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
