@@ -3,7 +3,6 @@
 <html lang="pt_BR">
 <head>
 	
-	<!-- Basic -->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<!-- COMMON TAGS -->
 	<meta charset="utf-8">
