@@ -6,7 +6,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta charset="utf-8">
 	<title>Matheus S. Gomes - Web Developer</title>
-	<!-- Search Engine -->
 	<meta name="description" content="Graduado em Sistema de Informação, tenho experiência em PHP, Laravel, algumas ferramentas de Front-end e também com a cultura DevOps utilizando CI/CD.">
 	<meta name="image" content="https://matheus.sgomes.dev/img/cover.png">
 	<!-- Schema.org for Google -->
