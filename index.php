@@ -4,7 +4,6 @@
 <head>
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<!-- COMMON TAGS -->
 	<meta charset="utf-8">
 	<title>Matheus S. Gomes - Web Developer</title>
 	<!-- Search Engine -->
