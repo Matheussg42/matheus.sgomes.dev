@@ -11,7 +11,6 @@
 	<meta itemprop="name" content="Matheus S. Gomes - Web Developer">
 	<meta itemprop="description" content="Graduado em Sistema de Informação, tenho experiência em PHP, Laravel, algumas ferramentas de Front-end e também com a cultura DevOps utilizando CI/CD.">
 	<meta itemprop="image" content="https://matheus.sgomes.dev/img/cover.png">
-	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
 	<meta name="og:title" content="Matheus S. Gomes - Web Developer">
 	<meta name="og:description" content="Graduado em Sistema de Informação, tenho experiência em PHP, Laravel, algumas ferramentas de Front-end e também com a cultura DevOps utilizando CI/CD.">
 	<meta name="og:image" content="https://matheus.sgomes.dev/img/cover.png">
