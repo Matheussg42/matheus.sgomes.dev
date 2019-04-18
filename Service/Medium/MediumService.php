@@ -4,7 +4,7 @@ namespace Service\Medium;
 use JonathanTorres\MediumSdk\Medium;
 use Service\Medium\Config;
 
-class HttpService {
+class MediumService {
 
     private $medium;
 
