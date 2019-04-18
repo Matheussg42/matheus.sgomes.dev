@@ -1,2 +1,2 @@
 <?php
-//Medium integration
+//Create a Medium integration 
