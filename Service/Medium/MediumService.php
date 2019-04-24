@@ -1,42 +1,31 @@
 <?php
 namespace Service\Medium;
 
-use JonathanTorres\MediumSdk\Medium;
-use Service\Medium\Config;
-
 class MediumService {
 
     private $medium;
 
-    public function __construct($client)
+    public function __construct()
     {
-        $credentials = [
-            'client-id' => $client,
-            'client-secret' => client_secret,
-            'redirect-url' => 'https://matheus.sgomes.dev/callback',
-            'state' => 'somesecret',
-            'scopes' => 'listPublications, basicProfile',
-        ];
-    
-        $this->medium = new Medium($credentials);
-        return $this->medium;
+        $url = "https://medium.com/@matheussg/latest?format=json";
+
+        $ch = curl_init();
+        $timeout = 5;
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+        $return = curl_exec($ch);
+        curl_close($ch);
+
+        $this->medium  = json_decode(str_replace('])}while(1);</x>', '', $return));
     }
 
     public function getUser(){
-        $user = $this->medium->getAuthenticatedUser();
-
-        return $user;
+        return $this->medium->payload->user;
     }
 
     public function getPosts(){
-        $jsonResult = $this->medium->getAuthenticatedUser();
-        $user = json_decode($jsonResult);
-
-        $publications = $medium->publications("@"+$user['username'])->data;
-
-        var_dump($publications);
-        die();
-
+        return $this->medium->payload->references->Post;
     }
 
 
