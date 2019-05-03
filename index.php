@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
-	
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta charset="utf-8">
 	<title>Matheus S. Gomes - Web Developer</title>
@@ -18,28 +18,28 @@
 	<meta name="og:locale" content="pt_BR">
 	<meta name="og:type" content="website">
 	<meta name="theme-color" content="#3a4fff" />
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	
+
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
-	
+
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/ionicons.css" />
 	<link rel="stylesheet" href="css/animate.css" />
-	
+
 	<!--[if lt IE 9]>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	
+
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="img/favicon.png">
-	
+
 </head>
 
 <body>
-	
+
 	<!-- Page -->
 	<div class="page" id="home-section">
 
@@ -88,7 +88,7 @@
 				</div>
 			</div>
 		</header>
-		
+
 		<!-- Container -->
 		<div class="container">
 
@@ -134,11 +134,11 @@
 							<div class="col col-m-12 col-t-7 col-d-7">
 								<div class="text-box">
 									<p><strong>Olá! Me chamo Matheus!</strong></p>
-									
+
 									<p>
-										Graduado no curso de Sistema de Informação na Faculdade Pitágoras, tenho 5 anos de experiência como Desenvolvedor, e atualmente estou 
-										mais voltado para o Back-End, com 4 anos de experiencia em PHP, e utilizo o Framework Laravel para desenvolver. Desempenho também 
-										atividades Operacionais, seguindo a cultura DevOps de CI/CD. Possuo experiência como Front-End, e conhecimento em desenvolvimento mobile 
+										Graduado no curso de Sistema de Informação na Faculdade Pitágoras, tenho 5 anos de experiência como Desenvolvedor, e atualmente estou
+										mais voltado para o Back-End, com 4 anos de experiencia em PHP, e utilizo o Framework Laravel para desenvolver. Desempenho também
+										atividades Operacionais, seguindo a cultura DevOps de CI/CD. Possuo experiência como Front-End, e conhecimento em desenvolvimento mobile
 										utilizando Android.
 									</p>
 									<p>
@@ -167,7 +167,7 @@
 								</div>
 								<div class="skills">
 									<ul>
-										<li> 
+										<li>
 											<div class="name">HTML • CSS • JS - <b>5 anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:100%;">
@@ -175,7 +175,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">PHP - <b>4 Anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:90%;">
@@ -183,7 +183,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">MySQL • PostegreSQL - <b>4 Anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:90%;">
@@ -191,7 +191,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">Laravel - <b>3 Anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:60%;">
@@ -199,7 +199,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">Scrum - <b>3 Anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:60%;">
@@ -207,7 +207,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">Git • BitBucket - <b>3 Anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:60%;">
@@ -215,7 +215,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">AWS • NGINX • CI/CD - <b>1 Ano</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:40%;">
@@ -243,7 +243,7 @@
 								</div>
 								<div class="skills">
 									<ul>
-										<li> 
+										<li>
 											<div class="name">Android</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
@@ -251,7 +251,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">JPA</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
@@ -267,7 +267,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">.NET</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
@@ -275,7 +275,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">MongoDB</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
@@ -283,7 +283,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">Node.js</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
@@ -291,7 +291,7 @@
 												</div>
 											</div>
 										</li>
-										<li> 
+										<li>
 											<div class="name">Angular 7</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
@@ -323,10 +323,10 @@
 									<div class="name">Grupo7 / Oficina Conectada</div>
 									<div class="category">Desenvolvedor Back-end Pleno</div>
 									<p>
-										Desenvolvedor Pleno utilizando o Framework Laravel, participo do desenvolvimento dos sistemas da empresa, 
-										fazendo parte da equipe de Back-End. Desenvolvemos os sistemas seguindo as diretrizes de Design Patters, 
-										e utilizando as tecnologias mais modernas para os projetos. Desempenho também a função de DevOps da empresa, 
-										aonde sou responsável pelo serviço operacional de infraestrutura do sistema, e por padronizar ambientes de 
+										Desenvolvedor Pleno utilizando o Framework Laravel, participo do desenvolvimento dos sistemas da empresa,
+										fazendo parte da equipe de Back-End. Desenvolvemos os sistemas seguindo as diretrizes de Design Patters,
+										e utilizando as tecnologias mais modernas para os projetos. Desempenho também a função de DevOps da empresa,
+										aonde sou responsável pelo serviço operacional de infraestrutura do sistema, e por padronizar ambientes de
 										desenvolvimento visando a entrega contínua. Também trabalho criando a documentação do projeto.
 									</p>
 								</div>
@@ -342,7 +342,7 @@
 									<div class="name">Aplus Tecnologia</div>
 									<div class="category">Desenvolvedor Web</div>
 									<p>
-										Desenvolvedor Web responsável por planejar e criar layouts para sites e lojas virtuais, além de desenvolver 
+										Desenvolvedor Web responsável por planejar e criar layouts para sites e lojas virtuais, além de desenvolver
 										o back-end de diversos sites, em vários segmentos diferentes.
 									</p>
 								</div>
@@ -358,8 +358,8 @@
 									<div class="name">Babita</div>
 									<div class="category">Desenvolvedor Fron-end</div>
 									<p>
-										Participei da equipe de desenvolvedores, aonde eramos responsáveis por desenvolver os sistemas internos da empresa. 
-										Eu desenvolvia o Front-End dos sistemas utilizando um FrameWork javascript chamado EXTJs, além de Bootstrap, CSS. 
+										Participei da equipe de desenvolvedores, aonde eramos responsáveis por desenvolver os sistemas internos da empresa.
+										Eu desenvolvia o Front-End dos sistemas utilizando um FrameWork javascript chamado EXTJs, além de Bootstrap, CSS.
 										Tive também contato com Java e PHP. <br>
 										Responsável por fazer rotinas diárias usando PostgreSQL.
 									</p>
@@ -376,7 +376,7 @@
 									<div class="name">Ultracar Comércio em Informática Ltda</div>
 									<div class="category">Desenvolvedor Jr</div>
 									<p>
-										Responsável pelo desenvolvimento dos sites da empresa, além de ser responsável pela criação e manutenção dos sites dos 
+										Responsável pelo desenvolvimento dos sites da empresa, além de ser responsável pela criação e manutenção dos sites dos
 										clientes, na linguagem PHP. Além de ter sido responsável pela estruturação do Marketing Digital da empresa.
 									</p>
 								</div>
@@ -392,7 +392,7 @@
 									<div class="name">Stefanini Knowledge Solutions / Usiminas</div>
 									<div class="category">Estágio de Analista de Desenvolvedor</div>
 									<p>
-										Estágiario terceirizado na empresa Usiminas, aonde tinha a função de ajudar no desenvolvimento do software da empresa, 
+										Estágiario terceirizado na empresa Usiminas, aonde tinha a função de ajudar no desenvolvimento do software da empresa,
 										na parte de front-end com JSF e PrimeFaces.<br>
 										Além de ter sido Gestor de Configuração, aonde era responsável pelo controle de versão do software que iria para produção.
 									</p>
@@ -511,23 +511,29 @@
 						</div>
 					</div>
 				</div>
+
+				<?php 
+					include('medium.php');
+				?>
+
+
 			</div>
 
 			<!-- Footer -->
 			<footer>
-				<div class="copy">© <?= date('Y')?> Matheus S. Gomes. All rights reserved.</div>
+				<div class="copy">© <?=date('Y')?> Matheus S. Gomes. All rights reserved.</div>
 			</footer>
-			
+
 		</div>
 
 	</div>
-	
+
 	<!-- jQuery Scripts -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/scrollreveal.js"></script>
-	
+
 	<!-- Main Scripts -->
 	<script src="js/script.js"></script>
-	
+
 </body>
 </html>
