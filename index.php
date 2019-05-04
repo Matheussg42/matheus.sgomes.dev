@@ -81,6 +81,8 @@
 							</li>
 							<li>
 								<a class="btn_animated" href="#education-section"><span class="circle">Formação</span></a>
+							</li><li>
+								<a class="btn_animated" href="#blog-section"><span class="circle">Blog</span></a>
 							</li>
 						</ul>
 						<a href="#" class="menu-btn"><span></span></a>
