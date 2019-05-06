@@ -1792,10 +1792,12 @@ footer .copy {
 	color: #363636;
 	line-height: 1.4;
 	font-weight: 400;
+	min-height: 60px;
 }
 
 .blog_item p {
 	margin: 0 0 20px 0;
+	min-height: 60px;
 }
 
 .blog_item:hover {
