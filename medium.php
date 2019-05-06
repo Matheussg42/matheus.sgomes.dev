@@ -8,6 +8,7 @@ $GetMedium = new MediumService();
 $user = $GetMedium->getUser();
 $posts = $GetMedium->getPosts();
 
+
 ?>
 
 <div class="section blog" id="blog-section">
@@ -23,11 +24,30 @@ $posts = $GetMedium->getPosts();
                 $title = $post->title;
                 $subtitle = $post->virtuals->subtitle;
                 $slug = $post->uniqueSlug;
+                $date = date("Y-m-d", substr($post->createdAt, 0, 10));
+                $date = explode('-', $date);
+                $nomes=[
+                    "01" => "Jan",
+                    "02" => "Fev",
+                    "03" => "Mar",
+                    "04" => "Abr",
+                    "05" => "Mai",
+                    "06" => "Jun",
+                    "07" => "Jul",
+                    "08" => "Ago",
+                    "09" => "Set",
+                    "10" => "Out",
+                    "11" => "Nov",
+                    "12" => "Dez",
+                ];
+                $mes = $nomes[$date[1]];
+                $dia = $date[2];
 
-                // echo "<pre>";
-                // var_dump($post->uniqueSlug);
-                // echo "</pre>";
-                // echo "<br>------<br>";
+                /*echo "<pre>";
+                var_dump($date[1]);
+                echo "</pre>";
+                echo "<br>------<br>";
+                die();*/
                 
                 ?>
                 <div class="col col-m-12 col-t-6 col-d-6">
@@ -37,7 +57,7 @@ $posts = $GetMedium->getPosts();
                         </div>
                         <div class="content-box">
                             <div class="i_title">
-                                <div class="icon"><strong>27</strong> July</div>
+                                <div class="icon"><strong><?= $dia ?></strong> <?= $mes?></div>
                             </div>
                             
                             <a target="_blank" href="https://medium.com/@matheussg/<?= $slug?>" class="name"><?= $title?></a>
