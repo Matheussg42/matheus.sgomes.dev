@@ -96,7 +96,7 @@
 			<!-- Started -->
 			<div class="section started">
 				<div class="st-box">
-					<div class="st-image"><img src="img/profile.JPG" alt="" /></div>
+					<div class="st-image"><img src="img/profile_01.png" alt="Matheus S. Gomes - Desenvolvedor Back-end & Entusiasta da Cultura DevOps" title="Matheus S. Gomes - Desenvolvedor Back-end & Entusiasta da Cultura DevOps"/></div>
 					<div class="st-title">Matheus S. Gomes</div>
 					<div class="st-subtitle">Desenvolvedor Back-end & Entusiasta da Cultura DevOps</div>
 					<div class="st-soc">
