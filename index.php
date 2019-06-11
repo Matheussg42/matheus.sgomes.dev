@@ -253,7 +253,7 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">JPA</div>
+											<div class="name">React</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
@@ -261,7 +261,7 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">Hibernate</div>
+											<div class="name">React Native</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
