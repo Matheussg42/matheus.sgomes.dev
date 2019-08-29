@@ -406,7 +406,8 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #efefef;
+	color: #304fff;
+    font-weight: bold;
 }
 
 a.btn,
