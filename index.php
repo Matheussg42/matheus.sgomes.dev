@@ -124,7 +124,7 @@
 								<div class="info-list">
 									<ul>
 										<li><strong><span>Idade:</span></strong> 25 Anos</li>
-										<li><strong><span>Cargo Atual:</span></strong> Desenvolvedor Back-end Pleno</li>
+										<li><strong><span>Cargo Atual:</span></strong> Analista Desenvolvedor Pleno</li>
 										<li><strong><span>País:</span></strong> Brasil</li>
 										<li><strong><span>Cidade/UF:</span></strong> Belo Horizonte/MG</li>
 										<li><strong><span>Telefone:</span></strong> <a href="tel:5531971179984">+55 (31) 9 7117-9984</a></li>
@@ -217,21 +217,21 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">AWS • NGINX • CI/CD - <b>1 Ano</b></div>
+											<div class="name">Node.js - <b>1 Ano</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:40%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
 												</div>
 											</div>
 										</li>
-										<!--<li>
-											<div class="name">Java • Java EE - <b>< 1 Ano</b></div>
+										<li>
+											<div class="name">AWS • NGINX • CI/CD • Docker - <b>1 Ano</b></div>
 											<div class="progress">
-												<div class="percentage" style="width:30%;">
+												<div class="percentage" style="width:40%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
 												</div>
 											</div>
-										</li>-->
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -277,6 +277,14 @@
 											</div>
 										</li>
 										<li>
+											<div class="name">Java • Java EE</div>
+											<div class="progress">
+												<div class="percentage" style="width:50%;">
+													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
+												</div>
+											</div>
+										</li>
+										<li>
 											<div class="name">MongoDB</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
@@ -284,16 +292,16 @@
 												</div>
 											</div>
 										</li>
+								
 										<li>
-											<div class="name">Node.js</div>
+											<div class="name">Angular 7</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
 												</div>
 											</div>
-										</li>
-										<li>
-											<div class="name">Angular 7</div>
+										</li><li>
+											<div class="name">Gamification</div>
 											<div class="progress">
 												<div class="percentage" style="width:50%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
@@ -320,7 +328,22 @@
 							</div>
 							<div class="cd-timeline-content">
 								<div class="content-box">
-									<div class="date">2018 - Atual</div>
+									<div class="date">2019 - Atual</div>
+									<div class="name">Nérus</div>
+									<div class="category">Analista Desenvolvedor Pleno</div>
+									<p>
+										 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="cd-timeline-block animated">
+							<div class="cd-timeline-point">
+								<i class="icon ion ion-ios-checkmark-empty"></i>
+							</div>
+							<div class="cd-timeline-content">
+								<div class="content-box">
+									<div class="date">2018 - 2019</div>
 									<div class="name">Grupo7 / Oficina Conectada</div>
 									<div class="category">Desenvolvedor Back-end Pleno</div>
 									<p>
@@ -410,6 +433,18 @@
 						<span class="circle"><i class="icon ion ion-university"></i></span>
 					</div>
 					<div class="cd-timeline">
+						<div class="cd-timeline-block animated">
+							<div class="cd-timeline-point">
+								<i class="icon ion ion-ios-checkmark-empty"></i>
+							</div>
+							<div class="cd-timeline-content">
+								<div class="content-box">
+									<div class="date">2019 - 2020</div>
+									<div class="name">MBA em Arquitetura de Software</div>
+									<div class="category">IGTI</div>
+								</div>
+							</div>
+						</div>
 						<div class="cd-timeline-block animated">
 							<div class="cd-timeline-point">
 								<i class="icon ion ion-ios-checkmark-empty"></i>
