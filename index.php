@@ -128,7 +128,7 @@
 							<div class="col col-m-12 col-t-5 col-d-5">
 								<div class="info-list">
 									<ul>
-										<li><strong><span>Idade:</span></strong> 25 Anos</li>
+										<li><strong><span>Idade:</span></strong> 26 Anos</li>
 										<li><strong><span>Cargo Atual:</span></strong> Analista Desenvolvedor Pleno</li>
 										<li><strong><span>País:</span></strong> Brasil</li>
 										<li><strong><span>Cidade/UF:</span></strong> Belo Horizonte/MG</li>
