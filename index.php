@@ -25,6 +25,7 @@
 
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/brands.min.js" />
 	<link rel="stylesheet" href="css/animate.css" />
 
 	<!--[if lt IE 9]>
@@ -80,8 +81,9 @@
 							</li>
 							<li>
 								<a class="btn_animated" href="#education-section"><span class="circle">Formação</span></a>
-							</li><li>
-								<a class="btn_animated" href="#blog-section"><span class="circle">Blog</span></a>
+							</li>
+							<li>
+								<a class="btn_animated" href="https://medium.com/@matheussg" target="_blank"><span class="circle">Blog</span></a>
 							</li>
 						</ul>
 						<a href="#" class="menu-btn"><span></span></a>
@@ -100,7 +102,7 @@
 					<div class="st-title">Matheus S. Gomes</div>
 					<div class="st-subtitle">Desenvolvedor Back-end & Entusiasta da Cultura DevOps</div>
 					<div class="st-soc">
-						<a target="blank" href="https://github.com/matheussg42" class="btn_animated">
+					<a target="blank" href="https://github.com/matheussg42" class="btn_animated">
 							<span class="circle"><i class="icon ion ion-social-github"></i></span>
 						</a>
 						<a target="blank" href="https://twitter.com/matheussg42" class="btn_animated">
@@ -108,6 +110,9 @@
 						</a>
 						<a target="blank" href="https://www.linkedin.com/in/matheussg/" class="btn_animated">
 							<span class="circle"><i class="icon ion ion-social-linkedin"></i></span>
+						</a>
+						<a target="blank" href="https://medium.com/@matheussg" class="btn_animated">
+							<span class="circle"><img style="width: 20px;" src="img/medium.png" /></span>
 						</a>
 					</div>
 				</div>
@@ -547,11 +552,6 @@
 						</div>
 					</div>
 				</div>
-
-				<?php 
-					include('medium.php');
-				?>
-
 
 			</div>
 
