@@ -143,7 +143,7 @@
 
 									<p>
 										Graduado no curso de Sistema de Informação na Faculdade Pitágoras, tenho 5 anos de experiência como Desenvolvedor, e atualmente estou
-										mais voltado para o Back-End, com 4 anos de experiencia em PHP, e utilizo o Framework Laravel para desenvolver. Desempenho também
+										mais voltado para o Back-End, com 5 anos de experiencia em PHP, e utilizo o Framework Laravel para desenvolver. Desempenho também
 										atividades Operacionais, seguindo a cultura DevOps de CI/CD. Possuo experiência como Front-End, e conhecimento em desenvolvimento mobile
 										utilizando Android.
 									</p>
