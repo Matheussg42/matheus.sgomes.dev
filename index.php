@@ -174,7 +174,7 @@
 								<div class="skills">
 									<ul>
 										<li>
-											<div class="name">HTML • CSS • JS - <b>5 anos</b></div>
+											<div class="name">HTML • CSS • JS - <b> <?=date('Y') - 2014?> Anos </b></div>
 											<div class="progress">
 												<div class="percentage" style="width:100%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
@@ -182,7 +182,7 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">PHP - <b>4 Anos</b></div>
+											<div class="name">PHP - <b><?=date('Y') - 2015?> Anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:90%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
@@ -190,7 +190,7 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">MySQL • PostegreSQL - <b>4 Anos</b></div>
+											<div class="name">MySQL • PostegreSQL - <b><?=date('Y') - 2015?> Anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:90%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
@@ -198,7 +198,15 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">Laravel - <b>3 Anos</b></div>
+											<div class="name">Git • BitBucket - <b><?=date('Y') - 2016?> Anos</b></div>
+											<div class="progress">
+												<div class="percentage" style="width:75%;">
+													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="name">Laravel - <b><?=date('Y') - 2017?> Anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:60%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
@@ -206,7 +214,7 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">Scrum - <b>3 Anos</b></div>
+											<div class="name">Scrum - <b><?=date('Y') - 2017?> Anos</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:60%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
@@ -214,15 +222,7 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">Git • BitBucket - <b>3 Anos</b></div>
-											<div class="progress">
-												<div class="percentage" style="width:60%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">Node.js - <b>1 Ano</b></div>
+											<div class="name">Node.js - <b><?=date('Y') - 2018?> Ano</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:40%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
@@ -230,7 +230,7 @@
 											</div>
 										</li>
 										<li>
-											<div class="name">AWS • NGINX • CI/CD • Docker - <b>1 Ano</b></div>
+											<div class="name">AWS • NGINX • CI/CD • Docker - <b><?=date('Y') - 2018?> Ano</b></div>
 											<div class="progress">
 												<div class="percentage" style="width:40%;">
 													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
