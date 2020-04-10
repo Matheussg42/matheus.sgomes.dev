@@ -173,70 +173,25 @@
 								</div>
 								<div class="skills">
 									<ul>
-										<li>
-											<div class="name">HTML • CSS • JS - <b> <?=date('Y') - 2014?> Anos </b></div>
-											<div class="progress">
-												<div class="percentage" style="width:100%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">PHP - <b><?=date('Y') - 2015?> Anos</b></div>
-											<div class="progress">
-												<div class="percentage" style="width:90%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">MySQL • PostegreSQL - <b><?=date('Y') - 2015?> Anos</b></div>
-											<div class="progress">
-												<div class="percentage" style="width:90%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">Git • BitBucket - <b><?=date('Y') - 2016?> Anos</b></div>
-											<div class="progress">
-												<div class="percentage" style="width:75%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">Laravel - <b><?=date('Y') - 2017?> Anos</b></div>
-											<div class="progress">
-												<div class="percentage" style="width:60%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">Scrum - <b><?=date('Y') - 2017?> Anos</b></div>
-											<div class="progress">
-												<div class="percentage" style="width:60%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">Node.js - <b><?=date('Y') - 2018?> Ano</b></div>
-											<div class="progress">
-												<div class="percentage" style="width:40%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">AWS • NGINX • CI/CD • Docker - <b><?=date('Y') - 2018?> Ano</b></div>
-											<div class="progress">
-												<div class="percentage" style="width:40%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
+										<?php 
+											include ('./habilidades.php');
+											foreach($profissionais as $profissional){
+												$x = date('Y') - $profissional['inicio'];
+												$total = date('Y') - 2014;
+												$percentage = ($x*100)/$total;
+												$ano = $x > 1 ? 'Anos' : 'Ano';
+												?>
+
+												<li>
+													<div class="name"><?= $profissional['habilidade']?> - <b> <?= "{$x} {$ano}"?></b></div>
+													<div class="progress">
+														<div class="percentage" style="width:<?=$percentage?>%;">
+															<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
+														</div>
+													</div>
+												</li>
+											<?php }
+										?>
 									</ul>
 								</div>
 							</div>
@@ -249,70 +204,18 @@
 								</div>
 								<div class="skills">
 									<ul>
-										<li>
-											<div class="name">Android</div>
-											<div class="progress">
-												<div class="percentage" style="width:50%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">React</div>
-											<div class="progress">
-												<div class="percentage" style="width:50%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">React Native</div>
-											<div class="progress">
-												<div class="percentage" style="width:50%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">.NET</div>
-											<div class="progress">
-												<div class="percentage" style="width:50%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">Java • Java EE</div>
-											<div class="progress">
-												<div class="percentage" style="width:50%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="name">MongoDB</div>
-											<div class="progress">
-												<div class="percentage" style="width:50%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
-								
-										<li>
-											<div class="name">Angular 7</div>
-											<div class="progress">
-												<div class="percentage" style="width:50%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li><li>
-											<div class="name">Gamification</div>
-											<div class="progress">
-												<div class="percentage" style="width:50%;">
-													<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-												</div>
-											</div>
-										</li>
+										<?php 
+											foreach($academicas as $academica){?>
+												<li>
+													<div class="name"><?= $academica['habilidade']?></div>
+													<div class="progress">
+														<div class="percentage" style="width:50%;">
+															<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
+														</div>
+													</div>
+												</li>
+											<?php }
+										?>
 									</ul>
 								</div>
 							</div>
