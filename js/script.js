@@ -22,7 +22,7 @@ $(function () {
 	if($('#home-section').length) {
 		$(window).on('scroll', function(){
 			var scrollPos = $(window).scrollTop();
-			$('.top-menu ul li a').each(function () {
+			$('.top-menu ul li a.siteRef').each(function () {
 				var currLink = $(this);
 				var refElement = $(currLink.attr("href"));
 				if (refElement.offset().top - 100 <= scrollPos) {
@@ -51,17 +51,6 @@ $(function () {
 			return false;
 		});
 	}
-
-	/* Open Top Menu */
-	$('.page').on('click', '.menu-btn', function(){
-		if($('.top-menu').hasClass('active')){
-			$('.top-menu').removeClass('active');
-		} else {
-			$('.top-menu').addClass('active');
-		}
-
-		return false;
-	});
 
 	/* Fixed Top Menu on scroll */
 	$(window).on('scroll', function(){

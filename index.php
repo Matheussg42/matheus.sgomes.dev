@@ -39,6 +39,7 @@
 </head>
 
 <body>
+	<?php require __DIR__ . '/model/Site.php';?>
 
 	<!-- Page -->
 	<div class="page" id="home-section">
@@ -68,19 +69,19 @@
 						<a class="btn_animated logo" href="#home-section"><img src="img/logo.png" alt="Matheus S. Gomes - Web Developer" title="Matheus S. Gomes - Web Developer"/></a>
 						<ul>
 							<li class="active">
-								<a class="btn_animated" href="#home-section"><span class="circle">Home</span></a>
+								<a class="btn_animated siteRef" href="#home-section"><span class="circle">Home</span></a>
 							</li>
 							<li>
-								<a class="btn_animated" href="#about-section"><span class="circle">Sobre</span></a>
+								<a class="btn_animated siteRef" href="#about-section"><span class="circle">Sobre</span></a>
 							</li>
 							<li>
-								<a class="btn_animated" href="#skills-section"><span class="circle">Habilidades</span></a>
+								<a class="btn_animated siteRef" href="#skills-section"><span class="circle">Habilidades</span></a>
 							</li>
 							<li>
-								<a class="btn_animated" href="#experience-section"><span class="circle">Experiência</span></a>
+								<a class="btn_animated siteRef" href="#experience-section"><span class="circle">Experiência</span></a>
 							</li>
 							<li>
-								<a class="btn_animated" href="#education-section"><span class="circle">Formação</span></a>
+								<a class="btn_animated siteRef" href="#education-section"><span class="circle">Formação</span></a>
 							</li>
 							<li>
 								<a class="btn_animated" href="https://medium.com/@matheussg" target="_blank"><span class="circle">Blog</span></a>
@@ -102,16 +103,16 @@
 					<div class="st-title">Matheus S. Gomes</div>
 					<div class="st-subtitle">Desenvolvedor Back-end & Entusiasta da Cultura DevOps</div>
 					<div class="st-soc">
-					<a target="blank" href="https://github.com/matheussg42" class="btn_animated">
+					<a target="_blank" href="https://github.com/matheussg42" class="btn_animated">
 							<span class="circle"><i class="icon ion ion-social-github"></i></span>
 						</a>
-						<a target="blank" href="https://twitter.com/matheussg42" class="btn_animated">
+						<a target="_blank" href="https://twitter.com/matheussg42" class="btn_animated">
 							<span class="circle"><i class="icon ion ion-social-twitter"></i></span>
 						</a>
-						<a target="blank" href="https://www.linkedin.com/in/matheussg/" class="btn_animated">
+						<a target="_blank" href="https://www.linkedin.com/in/matheussg/" class="btn_animated">
 							<span class="circle"><i class="icon ion ion-social-linkedin"></i></span>
 						</a>
-						<a target="blank" href="https://medium.com/@matheussg" class="btn_animated">
+						<a target="_blank" href="https://medium.com/@matheussg" class="btn_animated">
 							<span class="circle"><img style="width: 20px;" src="img/medium.png" /></span>
 						</a>
 					</div>
@@ -173,25 +174,7 @@
 								</div>
 								<div class="skills">
 									<ul>
-										<?php 
-											include ('./habilidades.php');
-											foreach($profissionais as $profissional){
-												$x = date('Y') - $profissional['inicio'];
-												$total = date('Y') - 2014;
-												$percentage = ($x*100)/$total;
-												$ano = $x > 1 ? 'Anos' : 'Ano';
-												?>
-
-												<li>
-													<div class="name"><?= $profissional['habilidade']?> - <b> <?= "{$x} {$ano}"?></b></div>
-													<div class="progress">
-														<div class="percentage" style="width:<?=$percentage?>%;">
-															<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-														</div>
-													</div>
-												</li>
-											<?php }
-										?>
+										<?php include_once("./itens/habilidades_profissionais.php"); ?>
 									</ul>
 								</div>
 							</div>
@@ -204,18 +187,7 @@
 								</div>
 								<div class="skills">
 									<ul>
-										<?php 
-											foreach($academicas as $academica){?>
-												<li>
-													<div class="name"><?= $academica['habilidade']?></div>
-													<div class="progress">
-														<div class="percentage" style="width:50%;">
-															<span class="percent"><i class="icon ion ion-ios-checkmark-empty"></i></span>
-														</div>
-													</div>
-												</li>
-											<?php }
-										?>
+										<?php include_once("./itens/habilidades_academicas.php"); ?>
 									</ul>
 								</div>
 							</div>
