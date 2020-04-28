@@ -154,7 +154,8 @@
 									</p>
 								</div>
 								<div class="bts">
-									<a href="docs/Curriculum.docx" download="Curriculum_Matheus.docx" class="btn btn_animated"><span class="circle">Download CV</span></a>
+									<a href="docs/Curriculum.pdf" download="Curriculum.pdf" class="btn btn_animated"><span class="circle">Download CV</span></a>
+									<a href="docs/Resume_Matheus.pdf" download="Resume_Matheus.pdf" class="btn btn_animated"><span class="circle">Download Resume</span></a>
 									<!--<a href="#contact-section" class="btn extra contact-btn btn_animated"><span class="circle">Entre em Contato</span></a>-->
 								</div>
 							</div>
