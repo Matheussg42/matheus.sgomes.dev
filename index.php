@@ -129,7 +129,7 @@
 							<div class="col col-m-12 col-t-5 col-d-5">
 								<div class="info-list">
 									<ul>
-										<li><strong><span>Idade:</span></strong> 26 Anos</li>
+										<li><strong><span>Idade:</span></strong> <?= date('Y')-1994 ?> Anos</li>
 										<li><strong><span>Cargo Atual:</span></strong> Analista Desenvolvedor Pleno</li>
 										<li><strong><span>País:</span></strong> Brasil</li>
 										<li><strong><span>Cidade/UF:</span></strong> Belo Horizonte/MG</li>
@@ -143,8 +143,8 @@
 									<p><strong>Olá! Me chamo Matheus!</strong></p>
 
 									<p>
-										Graduado no curso de Sistema de Informação na Faculdade Pitágoras, tenho 5 anos de experiência como Desenvolvedor, e atualmente estou
-										mais voltado para o Back-End, com 5 anos de experiencia em PHP, e utilizo o Framework Laravel para desenvolver. Desempenho também
+										Graduado no curso de Sistema de Informação na Faculdade Pitágoras, tenho 6 anos de experiência como Desenvolvedor, e atualmente estou
+										mais voltado para o Back-End, com 6 anos de experiencia em PHP, e utilizo o Framework Laravel para desenvolver. Desempenho também
 										atividades Operacionais, seguindo a cultura DevOps de CI/CD. Possuo experiência como Front-End, e conhecimento em desenvolvimento mobile
 										utilizando Android.
 									</p>
@@ -203,18 +203,35 @@
 						<span class="circle"><i class="icon ion ion-ios-briefcase"></i></span>
 					</div>
 					<div class="cd-timeline">
-						<div class="cd-timeline-block animated">
+                        <div class="cd-timeline-block animated">
+                            <div class="cd-timeline-point">
+                                <i class="icon ion ion-ios-checkmark-empty"></i>
+                            </div>
+                            <div class="cd-timeline-content">
+                                <div class="content-box">
+                                    <div class="date">2020 - Atual</div>
+                                    <div class="name">PJBank</div>
+                                    <div class="category">Desenvolvedor Pleno</div>
+                                    <p>
+                                        Desenvolvedor PHP na equipe de Banking.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cd-timeline-block animated">
 							<div class="cd-timeline-point">
 								<i class="icon ion ion-ios-checkmark-empty"></i>
 							</div>
 							<div class="cd-timeline-content">
 								<div class="content-box">
-									<div class="date">2019 - Atual</div>
+									<div class="date">2019 - 2020</div>
 									<div class="name">Nérus</div>
 									<div class="category">Analista Desenvolvedor Pleno</div>
-									<p>
-										 
-									</p>
+                                    <p>
+                                        Desenvolvedor Pleno PHP e Node.js. Com PHP era fullstack implementando novas features em um sistema da empresa,
+                                        e o responsável pelas manutenções e novas implementações do sistema de WMS(Warehouse Management System),
+                                        em Node.js fazia parte da equipe que criou a API.
+                                    </p>
 								</div>
 							</div>
 						</div>
