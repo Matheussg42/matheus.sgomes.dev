@@ -133,7 +133,6 @@
 										<li><strong><span>Cargo Atual:</span></strong> Analista Desenvolvedor Pleno</li>
 										<li><strong><span>País:</span></strong> Brasil</li>
 										<li><strong><span>Cidade/UF:</span></strong> Belo Horizonte/MG</li>
-										<li><strong><span>Telefone:</span></strong> <a href="tel:5531971179984">+55 (31) 9 7117-9984</a></li>
 										<li><strong><span>E-mail:</span></strong> <a href="mailto:matheus@sgomes.dev">matheus@sgomes.dev</a></li>
 									</ul>
 								</div>
